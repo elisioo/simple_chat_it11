@@ -1,0 +1,80 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #f4f4f4;
+	margin: 0;
+	padding: 0;
+}
+
+.box {
+	max-width: 700px;
+	margin: 30px auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	margin-top: 0;
+}
+
+label input,
+textarea {
+	width: 100%;
+	padding: 8px;
+	margin-top: 6px;
+	box-sizing: border-box;
+}
+
+button {
+	padding: 8px 12px;
+	cursor: pointer;
+}
+
+.messages {
+	border: 1px solid #eee;
+	height: 300px;
+	overflow: auto;
+	padding: 10px;
+	background: #fafafa;
+}
+
+.message {
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #eee;
+	padding-bottom: 6px;
+}
+
+.who {
+	font-weight: 600;
+	margin-right: 8px;
+}
+
+.when {
+	color: #888;
+	font-size: 0.9em;
+}
+
+.error {
+	background: #fee;
+	border: 1px solid #f99;
+	padding: 8px;
+}
+
+.success {
+	background: #efe;
+	border: 1px solid #9f9;
+	padding: 8px;
+}
+
+.meta {
+	margin-bottom: 8px;
+}
+
+.hint {
+	color: #666;
+	font-size: 0.9em;
+}
+
+textarea { resize: vertical; }
+
